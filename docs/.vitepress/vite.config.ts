@@ -14,5 +14,5 @@ export default {
       ],
       symbolId: 'svg-icon/[name]',
     }),
-  ],
+  ]
 }

@@ -6,6 +6,7 @@ export default defineConfig({
   appearance: true,
   title: 'Diskcloud',
   lastUpdated: true,
+  ignoreDeadLinks: true,
   // 标签页logo
   head: [
     ['link', { rel: 'icon', type: 'image/png', href: '/logo.png' }],
@@ -57,6 +58,5 @@ export default defineConfig({
       provider: 'local',
     },
   },
-
   vite,
 })
