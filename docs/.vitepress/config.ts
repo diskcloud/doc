@@ -30,7 +30,7 @@ export default defineConfig({
         link: '/start.md'
       },
       {
-        text: 'Service apis',
+        text: 'Service Apis',
         link: '/apis/index.md'
       }
     ],
@@ -41,6 +41,7 @@ export default defineConfig({
           text: 'Service API',
           items: [
             { text: '文件相关', link: '/apis/files' },
+            { text: '用户相关', link: '/apis/users' },
           ]
         }
       ],
