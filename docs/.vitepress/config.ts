@@ -19,7 +19,7 @@ export default defineConfig({
   },
 
   themeConfig: {
-    logo: '/logo.svg',
+    logo: '/logo.png',
     lastUpdatedText: '最近更新于',
     // 2/3/4级标题均形成目录
     outline: [2, 4],
