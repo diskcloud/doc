@@ -1,5 +1,4 @@
 import { defineConfig } from 'vitepress'
-import { autoGenerateSidebar } from 'press-util'
 import vite from './vite.config'
 
 export default defineConfig({
@@ -25,15 +24,30 @@ export default defineConfig({
     // 2/3/4级标题均形成目录
     outline: [2, 4],
     outlineTitle: '目录',
-    nav: [{
-      text: '🎯 快速入手',
-      link: '/start.md'
-    }],
-    sidebar: autoGenerateSidebar() as any,
-
+    nav: [
+      {
+        text: '快速开始',
+        link: '/start.md'
+      },
+      {
+        text: 'Service apis',
+        link: '/apis/index.md'
+      }
+    ],
+    sidebar: {
+      // 当用户位于 `guide` 目录时，会显示此侧边栏
+      '/apis/': [
+        {
+          text: 'Service API',
+          items: [
+            { text: '文件相关', link: '/apis/files' },
+          ]
+        }
+      ],
+    },
     // 编辑
     editLink: {
-      pattern: 'https://github.com/shoppingzh/vitepress-template/edit/main/docs/:path',
+      pattern: 'https://github.com/diskcloud/doc/edit/main/docs/:path',
       text: '在Github编辑',
     },
 

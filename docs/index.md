@@ -8,7 +8,7 @@ hero:
     src: /logo.png
   actions:
     - theme: brand
-      text: 快速上手
+      text: 快速开始
       link: /start
     - theme: alt
       text: GitHub
@@ -26,7 +26,5 @@ features:
     details: 专业的UI、UX设计，让用户操作更加快捷
   - icon: ✊
     title: 专业
-    link: https://github.com/shoppingzh/press-util
-    linkText: 更多
     details: 标准化企业级项目，包含 SSO 登录、用户管控、文件存储、日志监控等功能
 ---
