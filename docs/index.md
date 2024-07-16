@@ -16,8 +16,8 @@ hero:
 
 features:
   - icon: ⚡
-    title: 快速
-    details: 支持 ./scripts/setup.sh 一键快速启动
+    title: 简单
+    details: 支持 setup 脚本或 Docker 镜像一键快速部署
   - icon: 🛠️
     title: 全面
     details: 集成Koa、MySQL、Sequelize、Redis、PM2开发
