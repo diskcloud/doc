@@ -5,7 +5,7 @@ import vite from './vite.config'
 export default defineConfig({
   base: '/',
   appearance: true,
-  title: 'VitePress Template',
+  title: 'Diskcloud',
   lastUpdated: true,
   // 标签页logo
   head: [

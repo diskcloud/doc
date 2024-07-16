@@ -1,24 +1,32 @@
 ---
 layout: home
 hero:
-  name: VitePress Template
-  tagline: 开箱即用的Vite Press模板，快速搭建你的文档网站。
+  name: Diskcloud
+  text: 高效的文件存储系统
+  tagline: 以最佳的方式管理团队的文件存储
   image:
-    src: /brand.svg
+    src: /logo.png
   actions:
     - theme: brand
-      text: 快速入手
+      text: 快速上手
       link: /start
+    - theme: alt
+      text: GitHub
+      link: https://github.com/diskcloud
+
 features:
   - icon: ⚡
-    title: 简单
-    details: 开箱即用，只需要简单配置，就可以马上使用。
+    title: 快速
+    details: 支持 ./scripts/setup.sh 一键快速启动
   - icon: 🛠️
     title: 全面
-    details: 集成组件库、TailwindCSS、SVG图标等默认解决方案，应有尽有！
+    details: 集成Koa、MySQL、Sequelize、Redis、PM2开发
+  - icon: 🚗
+    title: 高效
+    details: 专业的UI、UX设计，让用户操作更加快捷
   - icon: ✊
-    title: 强大
+    title: 专业
     link: https://github.com/shoppingzh/press-util
     linkText: 更多
-    details: 自动生成导航栏与侧边栏，你的烦恼即是我的烦恼。
+    details: 标准化企业级项目，包含 SSO 登录、用户管控、文件存储、日志监控等功能
 ---
